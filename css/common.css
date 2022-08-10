@@ -1,0 +1,111 @@
+
+
+
+
+/* ===========header-nav============= */
+header{color: white;}
+.m_width{max-width: 1600px; margin: 0 auto; width: 100%;}
+/* 상단메뉴바 */
+#header{width: 100%;}
+#gnb{width: 100%; height: 90px; /* background: #fff; */ position: relative;}
+#nav{max-width: 1600px; margin: 0 auto;}
+#nav li{height: auto; margin: 0 38px;}
+#nav li>a{display: block; color:#fff; line-height: 94px; text-align: center; font-size: 1.2em; font-weight: bold;}
+#nav li a:hover{color: #e95a65;}
+#nav li#kesco_Logo_W{padding: 0; margin-top: 15px;}
+#nav li .m_width .m1_tit{padding: 0 20px;}
+#nav li .m_width .m1_tit img{display: block; margin: 20px auto; width: 200px; height: 200px;}
+#nav li div.width100{ position: absolute; top: 90px; left: 0; background: #fff; width: 100%; /* border-bottom: 1px solid transparent; */
+box-shadow: 0 0 0 rgba(0, 0, 0, .5); height: 0; overflow: hidden; padding: 0 0; transition: all 0.5s; }
+#nav li:hover div.width100{ height: auto; padding: 20px 0; border: 1px solid #e8e6f3; box-shadow: 0px 10px 10px rgba(0, 0, 0, .3); z-index: 1;}
+#gnb li ul h3{width: 200px; margin: 0; border: 0.5px solid #c9c9c9; padding: 5px; text-align: center; }
+#gnb li ul li h2{font-size: 1.5em; font-weight: bold; text-align: center; color: rgb(15, 51, 168); padding-top: 2px;}
+#gnb li ul li p{color: rgb(128, 128, 128); padding-top: 20px; line-height: 0;}
+#gnb li ul li dl dt a{color: #333; font-size: 1em; font-weight: bold; line-height: 50%;}
+#gnb li ul li dl dd a{color: #777; font-size: 0.8em; font-weight: bold; line-height: 50%; padding-left: 10px;} 
+#gnb li ul li h3 a{color: #097a84; font-weight: bold; line-height: 200%; margin-bottom: 3px;}
+#gnb li ul li dl dt:first-child{padding-top: 15px;}
+/* ===========//header-nav============= */
+
+
+.inner{margin: auto; width: 700px; height: 470px; position: relative; top: 150px;}
+.big_span{font-size: 40px; font-weight: bold;}
+.text_1{font-size: 15px; font-weight: 300; color:rgba(255,255,255,0.6); position: relative; left: 175px;}
+.text_2{font-size: 40px; padding-top: 40px; font-weight: 100; position: relative; left: 130px;}
+.text_3{font-size: 45px; padding-top: 20px; font-weight: 100; position: relative; left: 180px;}
+.text_box_img{position: relative; left: 15px; top: -10px;}
+.text_box{background: url(../img/org_cross.png) no-repeat; background-position-x: 520px; background-position-y: 15%; width: 600px; height: 214px; box-sizing: border-box;}
+.spain_menu{width: 900px; height: 160px; padding-top: 150px; position: relative; right: 30px; display: flex; margin: auto;}
+.spain_menu a{background: url(../img/octagon.png) no-repeat; padding: 60px;  background-size:contain; justify-content: center;}
+.spain_menu a:nth-child(1){position: relative; right: 20px;}
+.spain_menu a:nth-child(2){position: relative; right: 40px;}
+.spain_menu a:nth-child(3){position: relative; right: 20px;}
+.spain_menu a:nth-child(4){position: relative; right: 20px;}
+.spain_menu a span{text-decoration: none; text-align: center; color: #fff; display: inline-block; position: relative; right: 35px; top: -60px;}
+.spain_menu_txt{font-size: 15px; font-weight: 300; text-align: center;}
+.spain_menu_txt_1{background: url(../img/spain_icon1.png) no-repeat center; padding-top: 100px;}
+.spain_menu_txt_2{margin-left: 20px; background: url(../img/spain_icon2.png) no-repeat center; padding-top: 100px;}
+.spain_menu_txt_3{margin-left: 21px; background: url(../img/spain_icon3.png) no-repeat center; padding-top: 100px;}
+.spain_menu_txt_4{background: url(../img/spain_icon4.png) no-repeat center; padding-top: 100px;}
+/* ===============//spain_menu============== */
+
+.up{padding-top: 100px; display: block;}
+.tit_box{width: 220px; height: 328px; background: url(../img/news_tab_bg.jpg) no-repeat; background-size: cover; color: #fff; }
+.tit_box h2{text-align: center; font-size: 22px; font-weight: 550; margin-top: 30px;}
+.tit_box ul{position: relative; left: 40px; margin-top: 30px; font-size: 17px;}
+.tit_box ul li{padding: 10px 10px; margin-bottom: 5px;}
+.newslist{width: 630px; height: 328px; background: white; display: flex;}
+.leftnews{width: 315px; height: 328px; }
+.newslist_h2{font-size: 20px; font-weight: 550; color: #333; margin-top: 50px; text-align: center; margin-bottom: 15px;}
+.newslist_p{text-align: justify; font-size: 16px; width: 255px; height: 120px; margin: auto; color: #333;
+font-weight: 500; }
+.rightnews{width: 315px; height: 328px; border-left: 1px solid rgba(184, 182, 182, .7);}
+.newslist_span{font-size: 15px; color: #777; padding-left: 30px;}
+.great_men{width: 400px; height: 328px; background:url(../img/greet_bg.png) no-repeat; background-size: contain; }
+.great_txt{margin-top:  35px; margin-left: 25px;}
+.g_txt_1{color: #fff; font-size: 18px; font-weight: 500;}
+.g_txt_1 span{font-weight: bold;}
+.g_txt_2{font-size: 15px; display: block; margin-top: 20px; color: rgb(223, 219, 219);}
+.g_txt_3{font-size: 16px; margin-top: 5px; display: block; color: #fff;}
+.g_txt_3 span{font-size: 18px; font-weight: bold;}
+.great_men_img{background: url(../img/greet_man.png) no-repeat; height: 300px; background-position:right;  position: relative; top: -110px; left: 50px;} 
+.down{padding-top: 50px;}
+.img{width: 440px; height: 300px; background: url(../img/silde_image)no-repeat;}
+.popupzone{width: 100%; height: 55px; background: rgba(0, 0, 0, .4); position: relative; bottom: -245px;}
+.popupzone h2{color: #fff; font-weight: 600; position: relative; top: 20px; margin-left: 35px;}
+.popupzone p{color: #fff; font-weight: 600; position: relative; top: 4px; left: 300px;} 
+.control_box{margin-left: 15px;}
+.LB{background: url(../img/popupzone_prev.png) no-repeat; width: 20px; height: 20px; background-size: contain; position:relative; bottom: 16px; left: 340px;} 
+.CB{background: url(../img/popupzone_stop.png) no-repeat; width: 15px; height: 15px; background-size: contain; position:relative; bottom: 18px; left: 340px;} 
+.RB{background: url(../img/popupzone_next.png) no-repeat; width: 20px; height: 20px; background-size: contain; position:relative; bottom: 16px; left: 340px;} 
+.img2{width: 460px; height: 300px; background: #f8f8f8; margin-left: 30px;}
+.two_men{width: 230px; height: 300px; background: url(../img/2men) no-repeat; background-size: cover; background-position: center;}
+.two_men_txt{width: 230px; height: 300px; position: relative; left: 230px;}
+.two_men_txt h2{padding-top: 50px; text-align: center; font-size: 15px; color: #888;}
+.date{font-size: 16px; text-align: center; color: #b81418; font-weight: bold; padding-top: 15px;}
+.day{font-size: 32px; text-align: center; color: #b81418; font-weight: bold;}
+#red_line{width: 40px; height: 10px; border-bottom: 2px solid #b81418; margin: auto;}
+.two_men_txt h3{font-size: 18px; text-align: center; font-weight: bold; color: #333; padding-top: 40px;}
+.from{width: 300px; height: 300px; background: #fff; color: #333;}
+.from h2{font-size: 15px; font-weight: 600; padding-top: 25px; padding-left: 30px;}
+.from p{font-size: 22px; font-weight: 600; padding-left: 27px; padding-top: 7px;}
+.sch_ico{background: url(../img/bus_sch_ico.png) no-repeat; width: 54px; height: 50px; position: relative; left: 217px; top: -240px;}
+#sido{width: 236px; height: 38px; display: block; margin: auto; border: 1px solid #dcdcdc; color: #2c4363; margin-bottom: 5px; margin-top: 15px; font-size: 15px; font-weight: bold;}
+#sigingu{display: block; width: 236px; height: 38px; margin: auto; border: 1px solid #dcdcdc; color: #2c4363; margin-bottom: 5px; font-size: 15px; font-weight: bold;}
+input{display: block; width: 236px; height: 38px; margin: auto; border: 1px solid #dcdcdc; color: #2c4363; margin-bottom: 5px; font-size: 14px; font-weight: bold; text-align: center;}
+.from button{display: block; width: 236px; height: 45px; margin: auto; background:#0f316f; color: #fff; text-align: center; font-size: 17px;}
+/* ============//content1============ */
+
+
+.top{padding-top: 120px;}
+.txt_box{width: 100%; height: 175px; color: #fff; text-align: center;}
+#tb_t1{font-size: 20px; font-weight: bold; position: relative; top: -20px;}
+#tb_t2{font-size: 46px; font-weight: 100; padding-top: 30px;}
+#tb_t3{font-size: 46px; font-weight: 550; padding-top: 10px;}
+.txt_box b{font-weight: 550;}
+.middle{padding-top: 50px;}
+.left_box{width: 50%; height: 300px; background: white;}
+.right_box{width: 50%; height: 300px; background: red;}
+.bottom{padding-top: 25px;}
+.cybar_box{width: 100%; height: 120px; background: green;}
+/* ============//content2============ */

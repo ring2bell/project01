@@ -1,0 +1,12 @@
+*{margin:0; padding:0; border:0; }
+a{text-decoration: none;}
+.cf::after{content:''; display: block; clear: both;}
+.fl{float:left;}
+.fr{float:right;}
+.bg1{background-color: #f0fdff;}
+.bg2{background-color: #68b9c4;}
+.bg3{background-color: #457d85;}
+.bg4{background-color: #13555e;}
+.bg5{background-color: #0f3b41;}
+.bg6{background-color: #091c1f;}
+li{list-style: none;}

@@ -1,0 +1,25 @@
+#header{height: 100vh; background: url(../img/background_img1) no-repeat; 
+  background-size: cover; position: relative; width: 100%; z-index: 0;}
+/* #banner{height: 450px;} */
+#contents{height: 3200px;}
+#footer{height: 250px;}
+
+#header_top{height: 40px;}
+#header_nav{height: 90px;}
+/* //header */
+
+#content1{height: 880px; background: url(../img/background2.jpg)no-repeat; background-size: cover;}
+#content2{height: 970px; background: url(../img/background3.jpg)no-repeat; background-size: cover;}
+#content3{height: 780px;}
+#content4{height: 570px;}
+/* //contents */
+
+#footer_nav{height: 100px;}
+#footer_info{height: 150px;}
+
+.container {
+  /* 0~1100px */
+  max-width: 1280px;
+  margin: auto;
+}
+

@@ -1,0 +1,49 @@
+#wrap {
+}
+#header {
+  height: 140px;
+}
+#banner {
+  height: 450px;
+}
+#contents {
+  height: 950px;
+}
+#footer {
+  height: 220px;
+}
+
+#header-top {
+  height: 70px;
+}
+#header-nav {
+  height: 70px;
+}
+#content1 {
+  height: 90px;
+}
+#content2 {
+  height: 480px;
+}
+#content3 {
+  height: 380px;
+}
+#footer-nav {
+  height: 60px;
+}
+#footer-info {
+  height: 160px;
+}
+
+.container {
+  /* 0~1100px */
+  max-width: 1100px;
+  background-color: rgba(255, 0, 255, 0.5);
+  height: inherit;
+  margin: auto;
+}
+
+ul {
+  width: 100px;
+  height:100px;
+}

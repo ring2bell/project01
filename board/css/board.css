@@ -1,0 +1,151 @@
+.menu_box {
+  width: 1070px;
+  height: 160px;
+  margin: auto;
+  padding-top: 100px;
+  cursor: pointer;
+}
+
+.menu_box1 {
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.menu_box1 > li {
+  position: relative;
+  float: left;
+}
+
+.active a {
+  background: url(../img/black_V.png) no-repeat right/15px;
+  background-position: 220px;
+}
+
+.active a:hover {
+  background: url(../img/white_V.png) no-repeat right/15px;
+  background-position: 220px;
+}
+
+.menu_box1 > li > a {
+  display: block;
+  width: 200px;
+  height: 42px;
+  padding: 10px 40px 10px 20px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  color: rgb(53, 52, 52);
+  transition: all 0.2s;
+}
+
+.menu_box1 > li > a:hover {
+  background-color: #0e438d;
+  border: 1px solid #0e438d;
+  color: white;
+}
+
+span {
+  display: block;
+  padding-top: 15px;
+  font: 17px;
+}
+
+#search_wrap {
+  display: block;
+  width: 700px;
+  margin: auto;
+  padding-top: 120px;
+}
+
+#search_wrap select {
+  border: 1px solid lightgray;
+  height: 42px;
+  width: 150px;
+  cursor: pointer;
+}
+
+#search_wrap input {
+  border: 1px solid lightgray;
+  height: 40px;
+  width: 300px;
+}
+
+#search_wrap button {
+  border: 1px solid lightgray;
+  height: 42px;
+  width: 80px;
+  background: #0e438d;
+  color: white;
+  cursor: pointer;
+}
+/* 질문과답변 */
+
+/*#QnA_box div {
+  border: 1px solid; 
+}*/
+
+#QnA_box {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+  height: 500px;
+}
+
+label {
+  border: 1px solid lightgrey;
+  display: block;
+  width: 500px;
+
+}
+
+#QnA_box > div input {
+  display: none;
+}
+
+#QnA_box > div > div {
+  width: 100x;
+  line-height: 60px;
+  text-align: center;
+  float: left;
+}
+
+#QnA_box .cf .title {
+  width: 490px;
+  text-align: justify;
+  margin-right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  text-align: center;
+}
+
+#QnA_box .content_wrap {
+  width: 96%;
+  text-align: left;
+  padding: 0 2%;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+#QnA_box input:checked ~ div.content_wrap {
+  height: auto;
+  padding: 2% 2%;
+}
+
+#QnA_box .content_wrap .content {
+  text-align: justify;
+  background-color: #fff;
+  padding: 0;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+  border: none;
+}
+
+#QnA_box input:checked ~ div.content_wrap > .content {
+  height: auto;
+  padding: 10px 20px;
+  line-height: 24px;
+  border: 1px solid #ddd;
+}
